@@ -7,8 +7,11 @@ h2, h3{
     color: rgb(143, 52, 143);
 }
 h1{
+    color: rgb(143, 52, 143);
     padding: 15px;
     text-align: center;
+    text-shadow: 3px 3px rgb(252, 110, 164);
+    font-style: italic;
 }
 h2{
     padding-bottom: 15px;
@@ -53,7 +56,10 @@ img{
     flex-basis: 100px;
     flex-grow: 1;
     display: flex;
-    flex-wrap:wrap;
+    flex-direction: column;
+}
+.contenedor-pintoras p, .contenedor-pintoras h3, .contenedor-pintoras h4, .contenedor-pintoras img{
+    padding-top: 1em;
 }
 
 footer{
